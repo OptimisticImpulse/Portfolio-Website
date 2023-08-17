@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.1e592263.css",
-    "main.js": "/Portfolio-Website/static/js/main.cdb7e5da.js",
+    "main.css": "/Portfolio-Website/static/css/main.e1b19b06.css",
+    "main.js": "/Portfolio-Website/static/js/main.507690b6.js",
     "static/media/hero.png": "/Portfolio-Website/static/media/hero.cfb2453732813c88c721.png",
+    "static/media/calc.png": "/Portfolio-Website/static/media/calc.9401a22323080370a208.png",
     "static/media/MovieReview.png": "/Portfolio-Website/static/media/MovieReview.29995e0c1ff421050ba4.png",
     "static/media/golfapp.png": "/Portfolio-Website/static/media/golfapp.16a49cd981150370305c.png",
     "static/media/react.png": "/Portfolio-Website/static/media/react.0cf951a69d8e58f83f9d.png",
@@ -13,11 +14,11 @@
     "static/media/logo.png": "/Portfolio-Website/static/media/logo.b070314cc8e5c4b8d3b2.png",
     "static/media/javascript.png": "/Portfolio-Website/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Portfolio-Website/index.html",
-    "main.1e592263.css.map": "/Portfolio-Website/static/css/main.1e592263.css.map",
-    "main.cdb7e5da.js.map": "/Portfolio-Website/static/js/main.cdb7e5da.js.map"
+    "main.e1b19b06.css.map": "/Portfolio-Website/static/css/main.e1b19b06.css.map",
+    "main.507690b6.js.map": "/Portfolio-Website/static/js/main.507690b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e592263.css",
-    "static/js/main.cdb7e5da.js"
+    "static/css/main.e1b19b06.css",
+    "static/js/main.507690b6.js"
   ]
 }
