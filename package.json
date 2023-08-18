@@ -15,6 +15,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "clean": "rm -Rf node_modules/ && rm -f ./package-lock.json && npm cache clean -f",
+    "clean_windows": "IF EXIST node_modules rd /s /q node_modules && IF EXIST package-lock.json DEL package-lock.json && npm cache clean -f",
+    "rebuild": "npm run clean && npm i",
     "watch": "watch 'npm run build' ./src"
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
