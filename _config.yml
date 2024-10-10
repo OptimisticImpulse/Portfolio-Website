@@ -1,10 +1,15 @@
-title: Your Site Title
-description: A description of your site
+title: Happy Portfolio
+description: A place to be happy
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://yourusername.github.io" # the base hostname & protocol for your site
+url: "https://OptimisticImpulse.github.io" # the base hostname & protocol for your site
 
 # Build settings
-markdown: kramdown
-theme: minima
+#markdown: kramdown
+#theme: minima
+#plugins:
+#  - jekyll-feed
+
+remote_theme: pages-themes/leap-day@v0.2.0
 plugins:
-  - jekyll-feed
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+theme: jekyll-theme-leap-day
