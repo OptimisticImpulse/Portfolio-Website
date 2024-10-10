@@ -7,10 +7,13 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "multiformats": "^9.9.0",
+    "next": "^14.2.15",
+    "postcss": "^8.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-icons": "^4.10.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "react-scroll": "^1.8.9",
     "web-vitals": "^2.1.4"
   },
@@ -18,7 +21,7 @@
     "clean": "rm -Rf node_modules/ && rm -f ./package-lock.json && npm cache clean -f",
     "clean_windows": "IF EXIST node_modules rd /s /q node_modules && IF EXIST package-lock.json DEL package-lock.json && npm cache clean -f",
     "rebuild": "npm run clean && npm i",
-    "watch": "watch 'npm run build' ./src"
+    "watch": "watch 'npm run build' ./src",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
@@ -46,6 +49,7 @@
   },
   "devDependencies": {
     "gh-pages": "^5.0.0",
-    "tailwindcss": "^3.3.3"
+    "tailwindcss": "^3.3.3",
+    "webpack-cli": "^5.1.4"
   }
 }
